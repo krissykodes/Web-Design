@@ -1,0 +1,85 @@
+/* Body */
+body{
+    background-color: rgb(13,148,148);
+}
+
+/* Navbar */
+.navbar{
+    max-height: auto;
+}
+
+.navigation .navbar-brand{
+    color: rgb(252,252,255);
+    font-weight: bolder;
+    background-color: rgb(252,252,255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(252,252,255);
+    font-size: 26x;
+}
+
+/* Images */
+img{
+    float: left;
+    padding: 15px;
+    max-width:100% !important;
+    height:auto !important;
+}
+
+/* Visualizations */
+
+.visualization{
+    float: left;
+    padding: 15px;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* Paragraphs */
+p {
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+
+/* Table */
+.table{
+    font-size: 18px; 
+    background-color:rgb(252,252,255) !important;
+}
+/* Title */
+
+title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+/* Media */
+
+@media (max-wdith: 992px){
+    .navbar{
+        max-height: none;
+        padding: inherit;
+    }
+    .navbar div{
+        margin: inherit;
+        background-color: teal;
+    }
+
+    button{
+        margin-right: 30px;
+    }
+
+    button:focus{
+        outline: 1px dotted;
+        outline: 5px auto
+
+    }
+}
